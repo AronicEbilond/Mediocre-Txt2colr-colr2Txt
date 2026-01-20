@@ -45,8 +45,14 @@ Images will retain all their pixels!
 We will also be storing the modifiers in a seperate image layer, which will be made so as to be able to recreate the image in its entirety.
 
 We will have a multi-choice for the modifier colors to be enabled/disabled/displayed seperately.
+Edit: Same will be true for the third layer, the "Cleanup-channel"
 
 EXTRA Clarification on what the layers are;
 ROYGCBIVPM+NWbg = the "simplified-channel".
 The modifer layer = the "shading-channel"
 And for the third layer, well the cleaner-layer = the "Cleanup-channel"
+
+
+Default settings;
+The other 2 channels, will be disabled by default.
+The example text-mapping of the so-called video-icon(not a class of image, that's just what its called), will be displayed by default, but will be gone immediately after the user imports an image or deletes the text that its converting from.

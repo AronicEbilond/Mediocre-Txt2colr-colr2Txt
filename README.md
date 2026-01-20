@@ -5,17 +5,21 @@ The pixels themselves will be organised like they are in the image, but in text,
 Same goes for the modifier-document for more complex colors & mixed colors.
 
 Basic Overview of what characters mean what;
-ROYGBIV PLUS n, w & g letters for their corresponding colors(n is for noire which is black in english by the way, so that's why its not the same);
+ROYGCBIVPM PLUS N, W, G, lowercase letters, b letters for their corresponding colors(capital N is for noire which is black in english by the way, so that's why its not the same. Lowercase b is for brown btw);
 Red,
 Orange,
 Yellow,
 Green,
+Cyan,
 Blue,
 Indigo,
 Violet,
+Pink,
+Magenta,
 Black,
 White,
 Gray,
+brown,
 
 And another layer of code in a seperate text file, for different shades of these colors and for these colors too
 with this layer distinguished as modifying the pixels it does, via the positioning in the text file, indicated via comas
@@ -32,4 +36,10 @@ nnnwwwwnnn
 nwnwwwwnwn
 nnnnnnnnnn
 
+
+Other things;
+We'll have the image rescale to fit within a 10/29.5 height and 10/52.5 width ratio, assuming that 29.5cm and 52.5cm are the dimensions of your screen(excluding the plastic borders of your screen that don't emmit light), with the 10 being 10cm, but both fractions representing the amount of space on your screen that the preview image for the image-result & image-import we put in via the import button just under the preview image-display.
+
+Images will retain all their pixels!
+We will also be storing the modifiers in a seperate image layer, which will be made so as to be able to recreate the image in its entirety.
 

@@ -46,3 +46,8 @@ We will also be storing the modifiers in a seperate image layer, which will be m
 
 We will have a multi-choice for the modifier colors to be enabled/disabled/displayed seperately.
 
+EXTRA Clarification on what the layers are;
+One layer will be the string of letters you see above, aka the "simplified color-channel".
+The other, the modifier layer, is a black and white opacity layer for the shading aka the "shading color-channel".
+And we will have a third layer, for cleaning up the base layer, so that its not messy-looking, aka the cleaning layer, which, on its own, will most definitely look like a mess like the base layer. Unlike the simplified color-channel though, it will include all the parts & data of the image that were removed when creating the pure-text-based image.
+

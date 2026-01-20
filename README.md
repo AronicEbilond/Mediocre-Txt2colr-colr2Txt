@@ -28,13 +28,14 @@ so say, 101, would be considered at column 1 and row 1, and the one following it
 As for other formats, my idea would be to convert them directly kinda? Idk though, makes more sense to just, convert it to an image and then to another format?
 And there'll be 255 shades? Well, maybe. So as to be compatible with other color formats I suppose?
 
-
-And just for an example, here's what an image of a simplified video clip icon(like you'd see in an operating system's representation of video-files with the "chain-link" border-looking thing), with say, 5 by 10 pixels would look like
+EX;
+And just for an example that the user would see in the default workspace prior to adding any images, we'd have this string of characters;
 nnnnnnnnnn
 nwnwwwwnwn
 nnnwwwwnnn
 nwnwwwwnwn
 nnnnnnnnnn
+^ which is just a simple little illustration for the viewer, to see what our program does
 
 
 Other things;
@@ -42,4 +43,6 @@ We'll have the image rescale to fit within a 10/29.5 height and 10/52.5 width ra
 
 Images will retain all their pixels!
 We will also be storing the modifiers in a seperate image layer, which will be made so as to be able to recreate the image in its entirety.
+
+We will have a multi-choice for the modifier colors to be enabled/disabled/displayed seperately.
 
